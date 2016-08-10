@@ -6736,8 +6736,8 @@ QUnit.notifications = function( options ) {
   if (QUnit.notifications) {
     QUnit.notifications({
       icons: {
-        passed: 'scroll-demo/assets/assets/passed.png',
-        failed: 'scroll-demo/assets/assets/failed.png'
+        passed: './assets/assets/passed.png',
+        failed: './assets/assets/failed.png'
       }
     });
   }
@@ -8709,4 +8709,4 @@ if (window.Testem) {
 
 
 /* jshint ignore:end */
-//# sourceMappingURL=scroll-demo/assets/test-support.map
+//# sourceMappingURL=./assets/test-support.map
